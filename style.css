@@ -1,0 +1,137 @@
+
+body{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,92,29,1) 50%, rgba(252,69,149,1) 100%);
+}
+
+#box{
+    position: relative;
+    background: rgb(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-items:center;
+    justify-content: space-evenly;
+    top: 300px;
+   
+
+}
+
+#candy_container{
+position: relative;
+display: flex;
+justify-items: center;
+justify-content: space-evenly;
+margin-top: 400px;
+background: blue;
+
+
+
+
+
+}
+
+#allcandy{
+    position:relative ;
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 50%;
+    margin-top: 200px;
+
+    
+}
+
+.candy1{
+    background: red;
+    animation-name: ani1;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; 
+}
+.candy2{
+    background: green;
+    animation-name: ani1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.candy3{
+    background: rgb(5, 48, 129);
+    animation-name: ani1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.candy4{
+    background: rgb(248, 217, 40);
+    animation-name: ani2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.candy5{
+    background: rgb(87, 3, 112);
+    animation-name: ani2;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.candy6{
+    background: rgb(218, 31, 133);
+    animation-name: ani2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes ani1{
+25%{
+    top: 0px;
+    left: 200px;
+}
+
+ 50%{
+
+    top: 100px;
+    left: 100px;
+} 
+
+75%{
+
+    top:100px;
+    left: 0px;
+}
+
+}
+
+@keyframes ani2{
+    25%{
+        top: 0px;
+        right: 200px;
+    }
+    
+     50%{
+    
+        top: 100px;
+        right: 100px;
+    } 
+    
+    75%{
+    
+        top:100px;
+        right: 0px;
+    }
+    
+    }
+
+   
+    
